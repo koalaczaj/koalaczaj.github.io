@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab");
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Tools */
+.primary-overlay {
+	/* background: rgba(13, 71, 161, 0.5);*/
+	background: rgba(41, 121, 255, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+.secondary-overlay {
+	/* background: rgba(13, 71, 161, 0.3); */
+	background: rgba(41, 121, 255, 0.6);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.hl {
+	width: 80px;
+	border: 1px solid #2979ff;
+	margin: 20px auto 80px;
+}
+
+.hl2 {
+	width: 80px;
+	border: 2px solid #424242;
+	margin: 5px 0px 20px;
+	position: relative;
+}
+
+.hl3 {
+	width: 80px;
+	border: 2px solid #424242;
+	margin: 20px auto 40px;
+}
+
+/* Buttons */
+.btn-extend {
+	display: block;
+	width: 100%;
+}
+
+.btn-margin {
+	margin-top: 20px;
+}
+
+/* Navbar */
+.nav-default {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-scrolled {
+	background-color: rgba(34, 34, 34, 0.9);
+}
+
+/* Sections */
+
+/* Section: Showcase */
+.showcase-social-links {
+	display: flex;
+	flex-direction: row;
+}
+
+.showcase-social-links a {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	font-size: 18px;
+	color: #fff;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.showcase-social-links a:hover {
+	color: #1976d2;
+	background-color: #fff;
+}
+
+.showcase-content h4 {
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+	color: #1976d2;
+	background-color: #fff;
+	border-radius: 5%;
+	width: 115px;
+	padding: 5px 10px;
+}
+
+/* Section: About */
+.about-links {
+	margin: 1px 0;
+	font-size: 1.15em;
+}
+.about-contact .col {
+	padding: 5px;
+}
+
+.inline-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.inline-link:hover {
+	color: inherit;
+	font-weight: bold;
+}
+
+.about-image {
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 100px auto 0;
+}
+
+.about-image img {
+	width: 100%;
+	height: auto;
+	margin-top: -10%;
+}
+
+/* Section: Portfolio */
+.section-portfolio {
+	background-color: #fafafa;
+}
+.project-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 220px;
+	height: 220px;
+	margin: 10px auto;
+}
+.portfolio-image {
+	max-height: 100%;
+	max-width: 100%;
+	background-size: cover;
+	display: block;
+}
+
+.item-image-overlay {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	opacity: 0;
+	position: absolute;
+	height: 100%;
+}
+.item-image-overlay:hover {
+	opacity: 1;
+	transition: 0.5s ease;
+	display: block;
+}
+
+.project-wrapper:hover {
+	box-shadow: 2px 2px 8px #000;
+	transition: 0.6s ease;
+}
+
+/* Section: Qualifications */
+.carousel {
+	padding: 220px 0;
+}
+
+.carousel img {
+	max-width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+
+/* Section: Interests */
+.section-interests {
+	color: #fff;
+}
+.interests-content {
+	padding-bottom: 20px;
+}
+
+/* Section: Contact */
+.contact-item {
+	height: 60px;
+}
+.contact-item-text p {
+	margin: 0;
+	color: #757575;
+}
+.contact-item-text h5 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.contact-icon {
+	font-size: 2em;
+	margin-top: 10%;
+	color: #2979ff;
+}
+
+/* Header */
+.main-header {
+	background: url("assets/aerial-clouds-dawn-206660.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	color: #fff;
+}
+
+.main-header .showcase {
+	padding-top: 110px;
+	margin: 0 auto;
+}
+
+.brand-logo {
+	font-family: "Roboto Slab", serif;
+}
+
+@media (min-width: 981px) {
+	.brand-logo {
+		margin-left: 40px;
+	}
+}
