@@ -5,10 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<!-- Materialize -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-		/>
+		<link rel="stylesheet" href="css/materialize.min.css" />
 		<!-- Font Awesome -->
 		<link
 			rel="stylesheet"
@@ -17,7 +14,7 @@
 			crossorigin="anonymous"
 		/>
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<title>Ryan Crummy - Portfolio</title>
 	</head>
 	<body>
@@ -58,9 +55,7 @@
 								<h4>Hello!</h4>
 								<h1>I am a Web Developer</h1>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Libero vel quas ea! Reiciendis amet possimus quam autem beatae
-									eum quod.
+									Lives design, breathes tech.
 								</p>
 								<ul class="showcase-social-links">
 									<li>
@@ -102,23 +97,23 @@
 				<div class="row">
 					<div class="col s12 m5">
 						<div class="about-image">
-							<img class="responsive-img circle" src="assets/about.jpg" />
+							<img class="responsive-img circle" src="assets/about.png" />
 						</div>
 					</div>
 					<div class="col s12 m7">
 						<h4>About Me</h4>
 						<div class="hl2"></div>
-						<h3 class="blue-text text-accent-3">
+						<h3 class="blue-text text-darken-1">
 							I'm an up-and-coming Web Developer, looking to make my break in
 							the Industry.
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-							deserunt deleniti quo at sed cumque ea cupiditate quasi.
-							Cupiditate debitis ea nam voluptate ratione quibusdam consequatur
-							molestiae eveniet suscipit distinctio ex, commodi ipsa impedit
-							laudantium. Rem sequi ad quaerat repellendus reiciendis nostrum
-							aperiam ea earum, numquam, non dicta. Quo, voluptatem.
+							My name is Ryan Crummy and I'm from Melbourne, Australia. I enjoy
+							building responsive designs and single-page apps with frameworks
+							and HTML, CSS, and vanilla JS. Back-end development keeps me on my
+							toes and I strive to expand my expertise. Not limited to code, I
+							also use design applications, including Adobe Suite and open
+							source, to produce graphics and design mockups.
 						</p>
 						<div class="about-contact">
 							<div class="row">
@@ -186,6 +181,8 @@
 							<hr />
 							<div>
 								<a
+								href="https://drive.google.com/file/d/1_tsmE6zK__B2A66hyh8DCbvm0rZ8Fs8E/view?usp=sharing"
+								target="_blank"
 									class="waves-effect waves-light btn blue accent-3 btn-margin"
 								>
 									Download Resume</a
@@ -202,8 +199,9 @@
 				<div class="section-heading center">
 					<h2>My Work</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-						ad, nostrum recusandae voluptate voluptatum tempora!
+						Below is a collection of some of my works, utilizing the tools of
+						ReactJS and D3.js, with use of Bootstrap, Materialize, and custom
+						CSS styling.
 					</p>
 				</div>
 				<div class="row">
@@ -215,15 +213,21 @@
 									<div class="project-wrapper center">
 										<img
 											class="portfolio-image center"
-											src="https://source.unsplash.com/random/250x250"
+											src="./assets/screenshots/react_markdown.png"
 											alt="project"
 										/>
 										<div class="item-image-overlay">
-											<h5>Project</h5>
+											<h5>Markdown Previewer</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit. At, quaerat.
+												Text written in markdown converts and displays
+												dynamically. Written with React.
 											</p>
+											<a
+												href="https://codesandbox.io/embed/2vmkyo1lwn"
+												target="_blank"
+												class="port-link"
+												>CODESANDBOX</a
+											>
 										</div>
 									</div>
 								</div>
@@ -233,15 +237,22 @@
 									<div class="project-wrapper center">
 										<img
 											class="portfolio-image center"
-											src="https://source.unsplash.com/random/251x250"
+											src="./assets/screenshots/react_pomodoro.png"
 											alt="project"
 										/>
 										<div class="item-image-overlay">
-											<h5>Project</h5>
+											<h5>Pomodoro Timer</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit. At, quaerat.
+												A Timer built with React. Contains adjustable session
+												and break times. Bell rings at the end of each session
+												and break.
 											</p>
+											<a
+												href="https://codesandbox.io/embed/9q1vlq7v0w"
+												class="port-link"
+												target="_blank"
+												>CODESANDBOX</a
+											>
 										</div>
 									</div>
 								</div>
@@ -251,15 +262,21 @@
 									<div class="project-wrapper center">
 										<img
 											class="portfolio-image center"
-											src="https://source.unsplash.com/random/252x250"
+											src="./assets/screenshots/react_drumpad.png"
 											alt="project"
 										/>
 										<div class="item-image-overlay">
-											<h5>Project</h5>
+											<h5>Drum Machine</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit. At, quaerat.
+												An interactive drumpad created with React. Utilizes
+												mouse and keyboard inputs to play sound.
 											</p>
+											<a
+												href="https://codesandbox.io/embed/l7w7qwzy3z"
+												target="_blank"
+												class="port-link"
+												>CODESANDBOX</a
+											>
 										</div>
 									</div>
 								</div>
@@ -269,15 +286,21 @@
 									<div class="project-wrapper center">
 										<img
 											class="portfolio-image center"
-											src="https://source.unsplash.com/random/254x250"
+											src="./assets/screenshots/d3_chloropleth.png"
 											alt="project"
 										/>
 										<div class="item-image-overlay">
-											<h5>Project</h5>
+											<h5>Chloropleth Map</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit. At, quaerat.
+												A Chloropleth visualization with tooltips displaying
+												data mapped to United States. Created in D3.js v5.
 											</p>
+											<a
+												href="https://codepen.io/ryancrumble/pen/byVvGx"
+												target="_blank"
+												class="port-link"
+												>CODEPEN</a
+											>
 										</div>
 									</div>
 								</div>
@@ -287,15 +310,22 @@
 									<div class="project-wrapper center">
 										<img
 											class="portfolio-image center"
-											src="https://source.unsplash.com/random/255x250"
+											src="./assets/screenshots/d3_treemap.png"
 											alt="project"
 										/>
 										<div class="item-image-overlay">
-											<h5>Project</h5>
+											<h5>Tree Map</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit. At, quaerat.
+												An interactive chart with three datasets. Dynamic
+												tooltips and color legend. Created with D3.js v5 and
+												Bootstrap.
 											</p>
+											<a
+												href="https://codepen.io/ryancrumble/pen/dEYwpq"
+												target="_blank"
+												class="port-link"
+												>CODEPEN</a
+											>
 										</div>
 									</div>
 								</div>
@@ -305,20 +335,29 @@
 									<div class="project-wrapper center">
 										<img
 											class="portfolio-image center"
-											src="https://source.unsplash.com/random/256x250"
+											src="./assets/screenshots/d3_heatmap.png"
 											alt="project"
 										/>
 										<div class="item-image-overlay">
-											<h5>Project</h5>
+											<h5>Heat Map</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing
-												elit. At, quaerat.
+												A heat map visualization showing monthly global
+												temperatures over 100 years. Created in D3.js v5.
 											</p>
+											<a
+												href="https://codepen.io/ryancrumble/pen/YbXwZm"
+												target="_blank"
+												class="port-link"
+												>CODEPEN</a
+											>
 										</div>
 									</div>
 								</div>
 							</div>
-							<a class="waves-effect waves-light btn blue accent-3 btn-margin"
+							<a
+								class="waves-effect waves-light btn blue accent-3 btn-margin"
+								target="_blank"
+								href="https://codepen.io/ryancrumble/"
 								>Discover More</a
 							>
 						</div>
@@ -335,53 +374,105 @@
 				<div class="section-heading center">
 					<h2>Qualifications</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-						ad, nostrum recusandae voluptate voluptatum tempora!
+						These are just some certificates that have helped me get where I am.
+						Also cannot forget the countless YouTube videos and StackOverflow
+						articles.
 					</p>
 				</div>
 				<div class="hl"></div>
+				<!-- Cards -->
 				<div class="row">
-					<div class="carousel carousel-slider center">
-						<div class="carousel-fixed-item center"></div>
-						<div class="carousel-item grey lighten-1" href="#one!">
-							<h2>JavaScript Algorithms and Data Structures</h2>
-							<p>This is your first panel</p>
-							<a
-								href="https://www.freecodecamp.org/certification/ryancrumble/javascript-algorithms-and-data-structures"
-								target="_blank"
-							>
-								<img class="responsive-img" src="assets/carousel1.jpg" alt="" />
-							</a>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+								<a
+									href="https://www.freecodecamp.org/certification/ryancrumble/front-end-libraries"
+									target="_blank"
+								>
+									<img src="assets/qualification1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="card-content">
+								<span class="card-title">Front End Libraries</span>
+							</div>
 						</div>
-						<div class="carousel-item grey lighten-2" href="#two!">
-							<h2>Front End Libraries</h2>
-							<p>This is your second panel</p>
-							<a
-								href="https://www.freecodecamp.org/certification/ryancrumble/front-end-libraries"
-								target="_blank"
-							>
-								<img class="responsive-img" src="assets/carousel1.jpg" alt="" />
-							</a>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+								<a
+									href="https://www.freecodecamp.org/certification/ryancrumble/data-visualization"
+									target="_blank"
+								>
+									<img src="assets/qualification1.jpg" />
+								</a>
+							</div>
+							<div class="card-content">
+								<span class="card-title">Data Visualization</span>
+							</div>
 						</div>
-						<div class="carousel-item grey lighten-4" href="#four!">
-							<h2>Mastering data visualization in D3.js</h2>
-							<p>This is your third panel</p>
-							<a
-								href="https://www.udemy.com/certificate/UC-HCHMIF4G/"
-								target="_blank"
-							>
-								<img class="responsive-img" src="assets/carousel4.gif" alt="" />
-							</a>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+								<a
+									href="https://www.freecodecamp.org/certification/ryancrumble/responsive-web-design"
+									target="_blank"
+								>
+									<img src="assets/qualification1.jpg" />
+								</a>
+							</div>
+							<div class="card-content">
+								<span class="card-title">Responsive Web Design</span>
+							</div>
 						</div>
-						<div class="carousel-item grey lighten-3" href="#three!">
-							<h2>Responsive Web Design</h2>
-							<p>This is your fourth panel</p>
-							<a
-								href="https://www.freecodecamp.org/certification/ryancrumble/responsive-web-design"
-								target="_blank"
-							>
-								<img class="responsive-img" src="assets/carousel1.jpg" alt="" />
-							</a>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+								<a
+									href="https://www.udemy.com/certificate/UC-HCHMIF4G/"
+									target="_blank"
+								>
+									<img src="assets/qualification2.gif" />
+								</a>
+							</div>
+							<div class="card-content">
+								<span class="card-title"
+									>Mastering data visualization in D3.js</span
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+								<a
+									href="https://www.freecodecamp.org/certification/ryancrumble/javascript-algorithms-and-data-structures"
+									target="_blank"
+								>
+									<img src="assets/qualification1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="card-content">
+								<span class="card-title"
+									>JavaScript Algorithms and Data Structures</span
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+								<img
+									src="/assets/icons/mortarboard.png"
+									alt="education"
+									class="edu-icon"
+								/>
+							</div>
+							<div class="card-content">
+								<span class="card-title more-coming">And more coming...</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -392,28 +483,60 @@
 			<div class="secondary-overlay">
 				<div class="parallax-container">
 					<div class="parallax">
-						<img src="assets/daylight-environment-forest-459225.jpg" />
+						<img
+							src="assets/daylight-environment-forest-459225.jpg"
+							class="interests-bg"
+						/>
 					</div>
 					<div class="section-heading center">
 						<h2>Interests</h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-							ad, nostrum recusandae voluptate voluptatum tempora!
-						</p>
 					</div>
 					<div class="hl3"></div>
 					<div class="container">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-							repellat placeat nulla in architecto illo magnam, ducimus quis
-							adipisci dicta aliquid suscipit omnis exercitationem, sequi unde
-							officiis! Doloremque, sunt reprehenderit. Nostrum, aspernatur
-							quod? Ducimus, labore neque possimus expedita recusandae velit
-							error iure. Quisquam eligendi molestiae repellat aut laborum dolor
-							illum ipsa beatae unde consectetur similique incidunt eaque
-							facilis quaerat rem culpa, dolore maiores quos neque eos nobis
-							commodi. Eum sunt odit eius error? Doloribus non debitis sint,
-						</p>
+						<div class="row">
+							<ul class="interests-icons">
+								<div class="col s4 interest-icon">
+									<img
+										src="./assets/icons/tree.png"
+										alt="leaf"
+										class="responsive-img"
+									/>
+									<h5>Nature</h5>
+								</div>
+								<div class="col s4 interest-icon">
+									<img
+										src="./assets/icons/column.png"
+										alt="column"
+										class="responsive-img"
+									/>
+									<h5>History</h5>
+								</div>
+								<div class="col s4 interest-icon">
+									<img
+										src="./assets/icons/noodles.png"
+										alt="noodles"
+										class="responsive-img"
+									/>
+									<h5>Cooking</h5>
+								</div>
+								<div class="col s4 offset-s2 interest-icon">
+									<img
+										src="./assets/icons/computer.png"
+										alt="old_computer"
+										class="responsive-img"
+									/>
+									<h5>Computering</h5>
+								</div>
+								<div class="col s4 interest-icon">
+									<img
+										src="./assets/icons/coffee-pot.png"
+										alt="coffee_grinder"
+										class="responsive-img"
+									/>
+									<h5>Coffee</h5>
+								</div>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -426,14 +549,13 @@
 					<div class="section-heading center">
 						<h2>Let's Get in Touch</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-							ad, nostrum recusandae voluptate voluptatum tempora!
+							I would love to hear from you!
 						</p>
 					</div>
 				</div>
 				<div class="hl"></div>
 				<div class="row">
-					<div class="col s12 m7">
+					<!-- <div class="col s12 m7">
 						<div class="card-panel grey lighten-4 grey-text text-darken-4">
 							<form id="contact-form">
 								<div class="input-field">
@@ -467,8 +589,8 @@
 								/>
 							</form>
 						</div>
-					</div>
-					<div class="col s12 m5">
+					</div> -->
+					<div class="col s12 m6 offset-m3">
 						<div
 							class="contact-details card-panel grey lighten-4 grey-text text-darken-4"
 						>
@@ -485,7 +607,12 @@
 							</div>
 							<div class="contact-item">
 								<div class="col s2">
-									<i class="fas fa-comments contact-icon"></i>
+									<a
+										href="https://www.linkedin.com/in/ryan-crummy-a3228057"
+										target="_blank"
+										class="inline-link"
+										><i class="fas fa-comments contact-icon"></i
+									></a>
 								</div>
 								<div class="col s10">
 									<div class="contact-item-text">
@@ -503,7 +630,12 @@
 							</div>
 							<div class="contact-item">
 								<div class="col s2">
-									<i class="fas fa-envelope contact-icon"></i>
+									<a
+										href="mailto:ryancrummypl@gmail.com"
+										target="_top"
+										class="inline-link"
+										><i class="fas fa-envelope contact-icon"></i
+									></a>
 								</div>
 								<div class="col s10">
 									<div class="contact-item-text">
@@ -531,7 +663,8 @@
 					<div class="col l6 s12">
 						<h5 class="white-text">Footer Content</h5>
 						<p class="grey-text text-lighten-4">
-							This site was created with the Materialize and custom CSS.
+							This site was created with the Materialize, FlatIcon and custom
+							CSS.
 						</p>
 					</div>
 					<div class="col l4 offset-l2 s12">
@@ -584,7 +717,7 @@
 			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 			crossorigin="anonymous"
 		></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="js/materialize.min.js"></script>
 		<script>
 			// Navbar
 			$(document).ready(function() {
@@ -611,11 +744,6 @@
 				});
 			});
 
-			// Carousel
-			$(".carousel.carousel-slider").carousel({
-				fullWidth: true,
-				indicators: true
-			});
 			// Parallex
 			$(document).ready(function() {
 				$(".parallax").parallax();
@@ -623,4 +751,3 @@
 		</script>
 	</body>
 </html>
-
